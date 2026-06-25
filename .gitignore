@@ -1,23 +1,52 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# ==========================================
+# Team 006: HLCV Semantic-Aware Cropping
+# ==========================================
+facexformer/
+# 1. Datasets & Raw Images (DO NOT COMMIT)
+data/
+datasets/
+CelebAMask-HQ/
+LaPa/
+RAF-DB/
+*.jpg
+*.jpeg
+*.png
+
+# 2. Pre-computed Latent Embeddings & Models
+extracted_features/
+*.pt
+*.pth
+*.ckpt
+*.weights
+
+# 3. HTCondor Cluster Logs
+condor_logs/
+*.out
+*.err
+*.log
+
+# 4. Environment & Virtual Envs
+.env
+.venv/
+venv/
+miniconda3/
+hlcv_env/
+
+# 5. Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 6. Jupyter Notebooks & Checkpoints
+.ipynb_checkpoints
+*.ipynb
+
+# 7. OS & IDE Specifics
+.DS_Store
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+.idea/
+
+# 8. Experiment Tracking (Tensorboard/W&B)
+runs/
+wandb/
