@@ -14,6 +14,7 @@ This repository contains the code for Team 006's HLCV project. We investigate th
 3. Activate the environment: `conda activate hlcv`
 4. Submit jobs using: `condor_submit cluster_configs/pytorch_docker.sub`
 
+```
 semantic-face-crop/
 ├── data_pipeline/
 │   ├── celeb_loader.py
@@ -27,6 +28,6 @@ semantic-face-crop/
 │   ├── pytorch_docker.sub
 │   └── environment.yml
 └── README.md
-
+```
 
 
