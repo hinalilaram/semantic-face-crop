@@ -1,0 +1,21 @@
+# Core PyTorch ecosystem
+torch
+torchvision
+torchaudio
+
+# Data manipulation and math (Unpinned for Python 3.13 compatibility)
+numpy
+pandas
+scipy
+
+# Image processing and plotting
+Pillow
+matplotlib
+
+# Utilities and tracking
+tqdm
+wandb
+tensorboard
+pyyaml
+
+transformers
