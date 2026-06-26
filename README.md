@@ -8,20 +8,5 @@ In this repository we investigate the impact of semantic-aware cropping on the l
 * `analysis/`: Code to compute Cosine Similarity and the Region Preservation Ratio.
 * `cluster/`: HTCondor `.sub` and bash scripts for running jobs on the UdS GPU cluster.
 
-```
-semantic-face-crop/
-├── data/
-│   ├── celeb_loader.py
-│   └── augmentations.py
-├── models/
-│   └── extract_features.py
-├── analysis/
-│   └── metrics.py
-├── cluster/
-│   ├── execute.sh
-│   ├── pytorch_docker.sub
-│   └── environment.yml
-└── README.md
-```
 
 
